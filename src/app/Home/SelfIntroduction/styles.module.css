@@ -1,0 +1,19 @@
+.section { height: 80vh; }
+
+.left { width: 65%; }
+
+.right { width: 35%; }
+
+.title {
+    font-size:88px;
+    margin-bottom:16px;
+}
+
+.texts {
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.picture {
+  border-radius: 24px;
+}
