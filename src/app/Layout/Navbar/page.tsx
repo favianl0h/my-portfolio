@@ -16,10 +16,10 @@ export default function Navbar() {
                 <div className={`${styles.contactButton} flex-center-children black-white`}>
                     <h3 className={styles.navbarButton}>Contact</h3>
                 </div>
-                <h2  className={styles.navbarButton}>Passions</h2>
-                <h2  className={styles.navbarButton}>Academic</h2>
-                <h2  className={styles.navbarButton}>Now</h2>
-                <h2  className={styles.navbarButton}>About</h2>
+                <h2 className={styles.navbarButton}>Passions</h2>
+                <h2 className={styles.navbarButton}>Academic</h2>
+                <h2 className={styles.navbarButton}>Now</h2>
+                <h2 className={styles.navbarButton}>About</h2>
             </div>
         </div>
     );

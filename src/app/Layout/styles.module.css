@@ -1,0 +1,7 @@
+.viewport {
+    margin-top:80px;
+    min-height:100%;
+    max-width:100vw;
+    overflow-x:hidden;
+    inset:0px;
+}

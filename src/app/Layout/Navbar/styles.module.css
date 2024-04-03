@@ -7,9 +7,7 @@
     align-items:center;
 }
 
-.logoName {
-    width:15%;
-}
+.logoName { width:15%; }
 
 .navbarContents {
     width:85%;
@@ -22,7 +20,7 @@
 .navbarButton { font-size:var(--font-size-md); }
 
 .contactButton {
-    width:120px;
+    min-width:120px;
     height:64px;
     border-radius:16px;
 }

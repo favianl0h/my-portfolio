@@ -19,7 +19,7 @@ export default function SelfIntroduction() {
 
             {/* My Picture */}
             <div className={`${styles.right} black-white flex-center-children`}>
-                <Image src="/IMG_2824.JPG" width={360} height={640} alt="8059A SingNats Robot" className={styles.picture}/>
+                <Image src="/IMG_2824.JPG" alt="8059A SingNats Robot" width={360} height={640} className={styles.pictureContainer} />
             </div>
         </div>
     );

@@ -16,6 +16,8 @@ main {
   top:0px;
 }
 
+body { margin:0; }
+
 /* Custom Component */
 .full-width {
   width:100vw;
