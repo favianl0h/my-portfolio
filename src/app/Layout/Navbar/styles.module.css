@@ -1,0 +1,28 @@
+.navbar {
+    top:0;
+    height:80px;
+    position:fixed;
+    width:100%;
+    height:80px;
+    align-items:center;
+}
+
+.logoName {
+    width:15%;
+}
+
+.navbarContents {
+    width:85%;
+    height:100%;
+    flex-direction:row-reverse;
+    align-items:center;
+}
+.navbarContents > * { margin-right:24px; }
+
+.navbarButton { font-size:var(--font-size-md); }
+
+.contactButton {
+    width:120px;
+    height:64px;
+    border-radius:16px;
+}

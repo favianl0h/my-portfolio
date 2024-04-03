@@ -3,6 +3,12 @@
 
   --theme-black:#252525;
   --theme-grey:#5D5D5D;
+  --off-white:#F1F1F1;
+  --creme:#FFF5EA;
+
+  --font-size-sm:1.0rem;
+  --font-size-md:1.35rem;
+  --font-size-la:1.5rem;
 }
 
 /* Component-based */
@@ -28,7 +34,11 @@ main {
 
  /* Colours */
 
-.white-background { background-color:white; }
-.black-background { background-color:var(--theme-black) }
-.white-contents { color:white; }
-.black-contents { color:var(--theme-black); }
+ .black-white {
+  background-color:var(--theme-black);
+  color:white;
+ }
+ .white-black {
+  background-color:white;
+  color:var(--theme-black);
+ }
